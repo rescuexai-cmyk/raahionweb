@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Suggestions from './components/Suggestions';
 import Features from './components/Features';
-import FranchiseSection from './components/FranchiseSection';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -26,7 +25,6 @@ function HomePage({ selectedService, setSelectedService }) {
       <Hero />
       <Suggestions selectedService={selectedService} setSelectedService={setSelectedService} />
       <Features />
-      <FranchiseSection />
       <FAQ />
     </>
   );
