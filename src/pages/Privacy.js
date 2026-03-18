@@ -19,44 +19,75 @@ const Privacy = () => {
         <div className="container">
           <div className="content-grid content-grid-single">
             <div className="content-main">
-              <p className="content-meta">RAAHI – TERMS OF USE<br />Last Updated: 8 March 2026</p>
-              <p>These Terms of Use (“Terms”) govern your access to and use of the Raahi mobile application, website, technology platform, and related services (collectively, the “Platform”) operated by Raahi Technologies Pvt. Ltd. (“Raahi,” “we,” “us,” or “our”).</p>
-              <p>By accessing or using the Platform, you agree to be legally bound by these Terms.</p>
+              <p className="content-meta">
+                RAAHI – PRIVACY NOTICE<br />
+                Last Updated: 8 March 2026
+              </p>
 
-              <h2>1. ELIGIBILITY</h2>
-              <p>You must be at least 18 years of age to use the Platform. By creating an account, you confirm that all information provided is accurate and that you have the legal capacity to enter into this agreement.</p>
+              <p>
+                This Privacy Notice explains how Raahi Cabs Services Pvt. Ltd. collects, uses, stores, and protects personal information.
+              </p>
 
-              <h2>2. NATURE OF SERVICES</h2>
-              <p>Raahi is a technology platform that connects riders with independent third-party drivers. Raahi does not own vehicles and is not a transportation carrier.</p>
+              <p>1. INFORMATION WE COLLECT</p>
+              <p>
+                - Name, phone number, email<br />
+                - Real-time GPS location during rides<br />
+                - Payment transaction details<br />
+                - Device and usage information<br />
+                - SOS alerts and in-app communications
+              </p>
 
-              <h2>3. ACCOUNT SECURITY</h2>
-              <p>You are responsible for maintaining confidentiality of your login credentials and all activity under your account.</p>
+              <p>2. HOW WE USE INFORMATION</p>
+              <p>
+                - Provide ride-matching services<br />
+                - Process payments<br />
+                - Improve routing and safety<br />
+                - Prevent fraud<br />
+                - Provide customer support
+              </p>
 
-              <h2>4. BOOKINGS & RIDES</h2>
-              <p>Ride availability depends on driver availability. Estimated fares and times may vary due to traffic, route changes, tolls, and waiting time.</p>
+              <p>
+                3. LOCATION DATA Location data is used for ride matching, navigation, and safety tracking during active ride usage.
+              </p>
 
-              <h2>5. PAYMENTS</h2>
-              <p>Users agree to pay applicable fares, surge pricing (if any), tolls, taxes, cancellation fees, and platform charges. Payments may be processed via UPI, cards, wallets, or cash (if enabled).</p>
+              <p>
+                4. DATA SHARING We may share data:
+              </p>
+              <p>
+                - Between riders and drivers for ride coordination<br />
+                - With payment providers and cloud service partners<br />
+                - With authorities when legally required
+              </p>
+              <p>We do not sell personal data.</p>
 
-              <h2>6. SAFETY FEATURES</h2>
-              <p>Raahi may provide SOS, live tracking, and driver verification tools. These tools support safety but do not eliminate transportation risks.</p>
+              <p>
+                5. DATA SECURITY We implement encryption, secure servers, and access controls. No system is 100% secure.
+              </p>
 
-              <h2>7. PROHIBITED CONDUCT</h2>
-              <p>Users must not engage in illegal activity, harassment, fraud, system abuse, or vehicle/property damage.</p>
+              <p>
+                6. DATA RETENTION Data is retained as long as necessary for operational, legal, and fraud-prevention purposes.
+              </p>
 
-              <h2>8. INTELLECTUAL PROPERTY</h2>
-              <p>All Platform content, trademarks, and software belong to Raahi Technologies Pvt. Ltd.</p>
+              <p>
+                7. USER RIGHTS Users may request access, correction, or deletion of personal data, subject to legal obligations.
+              </p>
 
-              <h2>9. LIMITATION OF LIABILITY</h2>
-              <p>Raahi is not liable for indirect or consequential damages. Maximum liability shall not exceed the total fare paid for the ride in question.</p>
+              <p>
+                8. CHILDREN’S PRIVACY The Platform is not intended for individuals under 18 years of age.
+              </p>
 
-              <h2>10. TERMINATION</h2>
-              <p>Raahi may suspend or terminate accounts for violations, fraud, or safety concerns.</p>
+              <p>
+                9. POLICY UPDATES Continued use of the Platform indicates acceptance of updates.
+              </p>
 
-              <h2>11. GOVERNING LAW</h2>
-              <p>These Terms are governed by the laws of India. Disputes are subject to jurisdiction of courts in Allahabad, Uttar Pradesh.</p>
+              <p>
+                10. The Platform may rely on third-party services for mapping, payment processing, analytics, and cloud storage. These providers may process data in accordance with their own privacy policies.
+              </p>
 
-              <p><strong>Contact:</strong> contactus@raahionrescue.com<br /><strong>Company:</strong> Raahi Technologies Pvt. Ltd.</p>
+              <p>
+                Contact: contactus@raahionrescue.com<br />
+                Company: Raahi Cabs Services Pvt. Ltd.
+              </p>
             </div>
           </div>
         </div>
