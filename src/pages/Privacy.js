@@ -54,7 +54,7 @@ const Privacy = () => {
               <p>Raahi may suspend or terminate accounts for violations, fraud, or safety concerns.</p>
 
               <h2>11. GOVERNING LAW</h2>
-              <p>These Terms are governed by the laws of India. Disputes are subject to jurisdiction of courts in Varanasi, Uttar Pradesh.</p>
+              <p>These Terms are governed by the laws of India. Disputes are subject to jurisdiction of courts in Allahabad, Uttar Pradesh.</p>
 
               <p><strong>Contact:</strong> contactus@raahionrescue.com<br /><strong>Company:</strong> Raahi Technologies Pvt. Ltd.</p>
             </div>
