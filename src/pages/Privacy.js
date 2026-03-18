@@ -28,60 +28,66 @@ const Privacy = () => {
                 This Privacy Notice explains how Raahi Cabs Services Pvt. Ltd. collects, uses, stores, and protects personal information.
               </p>
 
-              <p>1. INFORMATION WE COLLECT</p>
+              <h2>1. INFORMATION WE COLLECT</h2>
+              <ul>
+                <li>Name, phone number, email</li>
+                <li>Real-time GPS location during rides</li>
+                <li>Payment transaction details</li>
+                <li>Device and usage information</li>
+                <li>SOS alerts and in-app communications</li>
+              </ul>
+
+              <h2>2. HOW WE USE INFORMATION</h2>
+              <ul>
+                <li>Provide ride-matching services</li>
+                <li>Process payments</li>
+                <li>Improve routing and safety</li>
+                <li>Prevent fraud</li>
+                <li>Provide customer support</li>
+              </ul>
+
+              <h2>3. LOCATION DATA</h2>
               <p>
-                - Name, phone number, email<br />
-                - Real-time GPS location during rides<br />
-                - Payment transaction details<br />
-                - Device and usage information<br />
-                - SOS alerts and in-app communications
+                Location data is used for ride matching, navigation, and safety tracking during active ride usage.
               </p>
 
-              <p>2. HOW WE USE INFORMATION</p>
-              <p>
-                - Provide ride-matching services<br />
-                - Process payments<br />
-                - Improve routing and safety<br />
-                - Prevent fraud<br />
-                - Provide customer support
-              </p>
-
-              <p>
-                3. LOCATION DATA Location data is used for ride matching, navigation, and safety tracking during active ride usage.
-              </p>
-
-              <p>
-                4. DATA SHARING We may share data:
-              </p>
-              <p>
-                - Between riders and drivers for ride coordination<br />
-                - With payment providers and cloud service partners<br />
-                - With authorities when legally required
-              </p>
+              <h2>4. DATA SHARING</h2>
+              <p>We may share data:</p>
+              <ul>
+                <li>Between riders and drivers for ride coordination</li>
+                <li>With payment providers and cloud service partners</li>
+                <li>With authorities when legally required</li>
+              </ul>
               <p>We do not sell personal data.</p>
 
+              <h2>5. DATA SECURITY</h2>
               <p>
-                5. DATA SECURITY We implement encryption, secure servers, and access controls. No system is 100% secure.
+                We implement encryption, secure servers, and access controls. No system is 100% secure.
               </p>
 
+              <h2>6. DATA RETENTION</h2>
               <p>
-                6. DATA RETENTION Data is retained as long as necessary for operational, legal, and fraud-prevention purposes.
+                Data is retained as long as necessary for operational, legal, and fraud-prevention purposes.
               </p>
 
+              <h2>7. USER RIGHTS</h2>
               <p>
-                7. USER RIGHTS Users may request access, correction, or deletion of personal data, subject to legal obligations.
+                Users may request access, correction, or deletion of personal data, subject to legal obligations.
               </p>
 
+              <h2>8. CHILDREN'S PRIVACY</h2>
               <p>
-                8. CHILDREN’S PRIVACY The Platform is not intended for individuals under 18 years of age.
+                The Platform is not intended for individuals under 18 years of age.
               </p>
 
+              <h2>9. POLICY UPDATES</h2>
               <p>
-                9. POLICY UPDATES Continued use of the Platform indicates acceptance of updates.
+                Continued use of the Platform indicates acceptance of updates.
               </p>
 
+              <h2>10. THIRD-PARTY SERVICES</h2>
               <p>
-                10. The Platform may rely on third-party services for mapping, payment processing, analytics, and cloud storage. These providers may process data in accordance with their own privacy policies.
+                The Platform may rely on third-party services for mapping, payment processing, analytics, and cloud storage. These providers may process data in accordance with their own privacy policies.
               </p>
 
               <p>

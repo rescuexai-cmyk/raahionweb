@@ -178,6 +178,12 @@
   border-bottom: 1px solid #E5E5E5;
 }
 
+/* Make Privacy Notice header stand out (more prominent than generic policy meta) */
+.privacy-page .content-main .content-meta {
+  color: #000;
+  font-weight: 700;
+}
+
 .content-main .content-list {
   margin: 0 0 16px 20px;
   padding: 0;
