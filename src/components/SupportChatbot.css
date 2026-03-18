@@ -1,0 +1,109 @@
+.global-chatbot-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #A0753A;
+  color: #FFF;
+  border: none;
+  box-shadow: 0 4px 20px rgba(160, 117, 58, 0.4);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  transition: transform 0.2s ease;
+}
+
+.global-chatbot-fab:hover {
+  transform: scale(1.05);
+}
+
+.global-chatbot.chatbot-panel {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  width: 380px;
+  max-width: calc(100vw - 48px);
+  height: 480px;
+  background: #FFF;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.global-chatbot .chatbot-header {
+  padding: 16px 20px;
+  background: #1A1A1A;
+  color: #FFF;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.global-chatbot .chatbot-close {
+  background: transparent;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.global-chatbot .chatbot-body {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+
+.global-chatbot .chatbot-message.bot {
+  background: #F5F5F5;
+  color: #333;
+  align-self: flex-start;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.global-chatbot .chatbot-input-wrap {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.global-chatbot .chatbot-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #E0E0E0;
+  border-radius: 24px;
+  font-size: 14px;
+  outline: none;
+}
+
+.global-chatbot .chatbot-input:focus {
+  border-color: #A0753A;
+}
+
+.global-chatbot .chatbot-send {
+  padding: 12px 20px;
+  background: #A0753A;
+  color: #FFF;
+  border: none;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.global-chatbot .chatbot-send:hover {
+  background: #8A6432;
+}

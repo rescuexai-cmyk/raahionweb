@@ -1,0 +1,274 @@
+.footer {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 64px 0 32px;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: -5px;
+}
+
+.footer-downloads {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-logo-image {
+  height: 120px;
+  width: auto;
+  filter: invert(1);
+  background: transparent;
+}
+
+.help-center-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.help-center-link:hover {
+  color: #FFFFFF;
+}
+
+.footer-links-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.footer-column-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.footer-column-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #FFFFFF;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.social-link {
+  color: #FFFFFF;
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover {
+  opacity: 0.7;
+}
+
+.location-language {
+  display: flex;
+  gap: 16px;
+}
+
+.locale-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.locale-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-apps {
+  display: flex;
+  gap: 16px;
+}
+
+.app-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #A0753A;
+  color: #FFFFFF;
+  padding: 16px 28px;
+  border-radius: 12px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.app-store-btn:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.app-store-btn svg {
+  width: 28px;
+  height: 28px;
+  color: inherit;
+}
+
+.app-store-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-store-label {
+  font-size: 10px;
+  color: inherit;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.app-store-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: inherit;
+}
+
+.app-store-btn:hover .app-store-label {
+  color: #333;
+  opacity: 1;
+}
+
+.app-store-btn:hover .app-store-name {
+  color: #000;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-legal {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-legal-links {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-legal-links a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.2s ease;
+}
+
+.footer-legal-links a:hover {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 0 24px;
+  }
+  
+  .footer-links-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-downloads {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .app-store-btn {
+    justify-content: center;
+    min-width: 160px;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-links-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 32px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-bottom-right {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .footer-legal-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+}

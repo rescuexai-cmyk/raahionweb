@@ -1,0 +1,205 @@
+.franchise-section {
+  background: #FFFFFF;
+  padding: 80px 0 96px;
+}
+
+.franchise-section-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.franchise-section-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 56px;
+  align-items: stretch;
+}
+
+.franchise-section-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #8A6432;
+  margin-bottom: 10px;
+}
+
+.franchise-section-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1A1A1A;
+  margin-bottom: 12px;
+}
+
+.franchise-section-intro {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4B4B4B;
+  margin-bottom: 20px;
+}
+
+.franchise-left-card {
+  background: #F8F5F0;
+  border-radius: 24px;
+  padding: 28px 28px 24px;
+  border: 1px solid #E3D5C4;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.04);
+  height: 100%;
+}
+
+.franchise-highlight {
+  margin-top: 6px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: #1C1C1C;
+  color: #FFFFFF;
+}
+
+.franchise-highlight-eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 4px;
+}
+
+.franchise-highlight-body {
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.franchise-points {
+  margin: 16px 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #353535;
+}
+
+.franchise-points li + li {
+  margin-top: 4px;
+}
+
+.franchise-section-about-text {
+  margin-top: 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.franchise-form-wrapper {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 26px 24px 24px;
+  border: 1px solid #E4E4E4;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.franchise-form-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.franchise-form-subtitle {
+  font-size: 14px;
+  color: #666666;
+  margin: 0 0 18px;
+}
+
+.franchise-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.franchise-form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.franchise-form-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.franchise-form-field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.franchise-form-field input,
+.franchise-form-field select,
+.franchise-form-field textarea {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #D4D4D4;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.franchise-form-field input:focus,
+.franchise-form-field select:focus,
+.franchise-form-field textarea:focus {
+  border-color: #A0753A;
+  box-shadow: 0 0 0 1px rgba(160, 117, 58, 0.25);
+}
+
+.franchise-form-field textarea {
+  resize: vertical;
+  min-height: 96px;
+}
+
+.franchise-error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #D12F2F;
+}
+
+.franchise-submit-btn {
+  align-self: flex-start;
+  margin-top: 4px;
+  padding-inline: 28px;
+}
+
+.franchise-success {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #166534;
+}
+
+@media (max-width: 1024px) {
+  .franchise-section-container {
+    padding: 0 32px;
+  }
+
+  .franchise-section-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .franchise-section {
+    padding: 56px 0 72px;
+  }
+
+  .franchise-section-container {
+    padding: 0 20px;
+  }
+
+  .franchise-section-title {
+    font-size: 28px;
+  }
+
+  .franchise-form-row {
+    flex-direction: column;
+  }
+}
