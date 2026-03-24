@@ -1,0 +1,155 @@
+.features {
+  width: 100%;
+}
+
+.feature-block {
+  padding: 96px 0;
+}
+
+.feature-block.bg-cream {
+  background-color: #F8F8F8;
+}
+
+.feature-block.bg-white {
+  background-color: #FFFFFF;
+}
+
+.features .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.feature-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.feature-block.reversed .feature-content {
+  direction: rtl;
+}
+
+.feature-block.reversed .feature-text,
+.feature-block.reversed .feature-image-wrap {
+  direction: ltr;
+}
+
+.feature-text {
+  max-width: 520px;
+}
+
+/* Match franchise section: label-to-title spacing 12px */
+.feature-subtitle-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #A0753A;
+  margin: 0 0 12px 0;
+}
+
+.feature-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #1A1A1A;
+  margin: 0 0 24px 0;
+}
+
+.feature-body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #525252;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.feature-image-wrap {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.feature-image-single {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.feature-image-wrap:hover .feature-image-single {
+  transform: scale(1.02);
+}
+
+@media (max-width: 1024px) {
+  .features .container {
+    padding: 0 24px;
+  }
+
+  .feature-block {
+    padding: 64px 0;
+  }
+
+  .feature-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .feature-block.reversed .feature-content {
+    direction: ltr;
+  }
+
+  .feature-text {
+    max-width: 100%;
+  }
+
+  .feature-title {
+    font-size: 32px;
+  }
+
+  .feature-body {
+    font-size: 16px;
+  }
+}
+
+.get-app-btn {
+  display: inline-block;
+  background: transparent;
+  color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  padding: 8px 0;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.get-app-btn:hover {
+  color: #A0753A;
+}
+
+@media (max-width: 600px) {
+  .feature-block {
+    padding: 48px 0;
+  }
+
+  .feature-title {
+    font-size: 28px;
+  }
+
+  .feature-subtitle-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+  }
+
+  .feature-body {
+    font-size: 14px;
+  }
+}

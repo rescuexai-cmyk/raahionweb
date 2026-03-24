@@ -1,0 +1,146 @@
+.app-download {
+  background: #EEDFCA;
+  padding: 64px 0;
+}
+
+.app-download .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.app-download-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.app-download-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+}
+
+.app-download-options {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.store-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #000000;
+  color: #FFF;
+  padding: 14px 24px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.store-button:hover {
+  background: #1A1A1A;
+  transform: scale(1.02);
+}
+
+.store-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-label {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.store-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.qr-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #FFF;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.qr-code {
+  width: 80px;
+  height: 80px;
+  background: #FFF;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.raahi-badge {
+  background: #A0753A;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.raahi-logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.qr-label {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .app-download .container {
+    padding: 0 24px;
+  }
+  
+  .app-download-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .app-download-options {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .store-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .qr-section {
+    width: 100%;
+    justify-content: center;
+  }
+}
