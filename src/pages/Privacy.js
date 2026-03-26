@@ -77,7 +77,7 @@ const Privacy = () => {
 
               <h2>8. CHILDREN'S PRIVACY</h2>
               <p>
-                The Platform is not intended for individuals under 18 years of age.
+                The Platform is not intended for individuals under 4+ years of age.
               </p>
 
               <h2>9. POLICY UPDATES</h2>
