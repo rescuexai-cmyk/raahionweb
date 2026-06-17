@@ -12,8 +12,28 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "node scripts/react-snap.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "include": [
+      "/",
+      "/about",
+      "/blogs",
+      "/career",
+      "/help",
+      "/safety",
+      "/terms",
+      "/privacy"
+    ],
+    "inlineCss": false,
+    "fixWebpackChunksIssue": false,
+    "skipThirdPartyRequests": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "browserslist": {
     "production": [
@@ -26,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "puppeteer": "^25.1.0",
+    "react-snap": "^1.23.0"
   }
 }
