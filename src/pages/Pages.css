@@ -182,6 +182,37 @@
 .privacy-page .content-main .content-meta {
   color: #000;
   font-weight: 700;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.privacy-page .content-main h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 20px 0 8px;
+}
+
+.privacy-page .content-main p {
+  margin: 0 0 10px;
+}
+
+.privacy-page .content-main ul {
+  margin: 0 0 10px;
+  padding-left: 24px;
+}
+
+.privacy-page .content-main li {
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.privacy-page .content-main .privacy-contact {
+  margin-top: 16px;
+  font-weight: 600;
+  color: #000;
 }
 
 .content-main .content-list {
