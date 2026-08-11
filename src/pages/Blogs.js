@@ -9,7 +9,7 @@ const blogPosts = [
     category: 'Product Update',
     date: 'Feb 20, 2026',
     readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: true
   },
   {
@@ -19,7 +19,7 @@ const blogPosts = [
     category: 'Community',
     date: 'Feb 18, 2026',
     readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: false
   },
   {
@@ -29,7 +29,7 @@ const blogPosts = [
     category: 'Safety',
     date: 'Feb 15, 2026',
     readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: false
   },
   {
@@ -39,7 +39,7 @@ const blogPosts = [
     category: 'News',
     date: 'Feb 12, 2026',
     readTime: '3 min read',
-    image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: false
   },
   {
@@ -49,7 +49,7 @@ const blogPosts = [
     category: 'Insights',
     date: 'Feb 10, 2026',
     readTime: '7 min read',
-    image: 'https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: false
   },
   {
@@ -59,7 +59,7 @@ const blogPosts = [
     category: 'Sustainability',
     date: 'Feb 8, 2026',
     readTime: '5 min read',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&h=250&fit=crop',
+    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=400&h=250&q=70&fm=webp',
     featured: false
   }
 ];
@@ -89,7 +89,14 @@ const Blogs = () => {
           </p>
         </div>
         <div className="page-hero-split-image">
-          <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80" alt="Raahi blog and stories" />
+          <img
+            src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=70&fm=webp"
+            alt="Raahi blog and stories"
+            width={800}
+            height={533}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </section>
 
@@ -98,7 +105,14 @@ const Blogs = () => {
           {featuredPost && (
             <div className="featured-post">
               <div className="featured-image">
-                <img src={featuredPost.image} alt={featuredPost.title} />
+                <img
+                  src={featuredPost.image}
+                  alt={featuredPost.title}
+                  width={400}
+                  height={250}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <span className="category-badge">{featuredPost.category}</span>
               </div>
               <div className="featured-content">
@@ -144,7 +158,14 @@ const Blogs = () => {
             {filteredPosts.filter(post => !post.featured).map(post => (
               <article key={post.id} className="blog-card">
                 <div className="blog-image">
-                  <img src={post.image} alt={post.title} />
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    width={400}
+                    height={250}
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <span className="category-badge">{post.category}</span>
                 </div>
                 <div className="blog-content">

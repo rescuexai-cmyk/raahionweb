@@ -12,7 +12,14 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="page-hero-split-image">
-          <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&q=80" alt="Raahi — mobility across India" />
+          <img
+            src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=70&fm=webp"
+            alt="Raahi — mobility across India"
+            width={800}
+            height={533}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </section>
 

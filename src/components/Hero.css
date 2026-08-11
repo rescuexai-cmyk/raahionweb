@@ -17,20 +17,6 @@
   z-index: 0;
 }
 
-.hero-map-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.06;
-  z-index: 0;
-  pointer-events: none;
-}
-
 .hero-container {
   max-width: 1400px;
   margin: 0 auto;

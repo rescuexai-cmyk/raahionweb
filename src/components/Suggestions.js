@@ -1,12 +1,12 @@
 import React from 'react';
 import './Suggestions.css';
 import { useLanguage } from '../context/LanguageContext';
-import iconCabMini from '../assets/icon-cab-mini.png';
-import iconAuto from '../assets/icon-auto.png';
-import iconCabXL from '../assets/icon-cab-xl.png';
-import iconRescue from '../assets/icon-rescue.png';
-import iconPremium from '../assets/icon-premium.png';
-import iconDriverRental from '../assets/icon-driver-rental.png';
+import iconCabMini from '../assets/icon-cab-mini.webp';
+import iconAuto from '../assets/icon-auto.webp';
+import iconCabXL from '../assets/icon-cab-xl.webp';
+import iconRescue from '../assets/icon-rescue.webp';
+import iconPremium from '../assets/icon-premium.webp';
+import iconDriverRental from '../assets/icon-driver-rental.webp';
 
 const suggestions = [
   { id: 'rescue', key: 'rescue', isNew: true, badge: null, icon: iconRescue },
@@ -44,7 +44,15 @@ const Suggestions = ({ selectedService, setSelectedService }) => {
                 <p className="suggestion-desc">{t.suggestions[item.key].description}</p>
               </div>
               <div className="suggestion-illustration">
-                <img src={item.icon} alt={t.suggestions[item.key].title} className="suggestion-icon" />
+                <img
+                  src={item.icon}
+                  alt={t.suggestions[item.key].title}
+                  className="suggestion-icon"
+                  width={120}
+                  height={100}
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
             </div>
           ))}

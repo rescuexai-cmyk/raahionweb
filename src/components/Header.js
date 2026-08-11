@@ -31,7 +31,14 @@ const Header = () => {
       <div className="header-container">
         <div className="header-left">
           <Link to="/" className="logo">
-            <img src="/raahi-logo.png" alt="Raahi" className="logo-image" />
+            <img
+              src="/raahi-logo.webp"
+              alt="Raahi"
+              className="logo-image"
+              width={40}
+              height={40}
+              decoding="async"
+            />
           </Link>
 
           <nav className={`nav ${mobileMenuOpen ? 'nav-open' : ''}`}>

@@ -38,7 +38,15 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              <img src="/raahi-logo.png" alt="Raahi" className="footer-logo-image" />
+              <img
+                src="/raahi-logo.webp"
+                alt="Raahi"
+                className="footer-logo-image"
+                width={40}
+                height={40}
+                loading="lazy"
+                decoding="async"
+              />
             </Link>
             <Link to="/help" className="help-center-link">{footer.visitHelp || 'Contact Us'}</Link>
           </div>

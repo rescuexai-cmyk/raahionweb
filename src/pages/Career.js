@@ -18,7 +18,14 @@ const Career = () => {
           </p>
         </div>
         <div className="page-hero-split-image">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80" alt="Raahi team" />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=70&fm=webp"
+            alt="Raahi team"
+            width={800}
+            height={533}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </section>
 

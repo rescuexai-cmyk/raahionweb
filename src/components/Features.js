@@ -1,9 +1,9 @@
 import React from 'react';
 import './Features.css';
 import { useLanguage } from '../context/LanguageContext';
-import section1 from '../assets/section-1.png';
-import section2 from '../assets/section-2.png';
-import section3 from '../assets/section-3.png';
+import section1 from '../assets/section-1.webp';
+import section2 from '../assets/section-2.webp';
+import section3 from '../assets/section-3.webp';
 
 const featureConfig = [
   { id: 1, key: 'section1', image: section1, imageAlt: 'Raahi taxi in the city', reversed: false, bgColor: 'cream' },
@@ -31,7 +31,15 @@ const Features = () => {
                   <a href="#" className="get-app-btn">{t.getTheApp}</a>
                 </div>
                 <div className="feature-image-wrap">
-                  <img src={feature.image} alt={feature.imageAlt} className="feature-image-single" />
+                  <img
+                    src={feature.image}
+                    alt={feature.imageAlt}
+                    className="feature-image-single"
+                    width={960}
+                    height={639}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
               </div>
             </div>

@@ -51,22 +51,27 @@ const Hero = () => {
 
           <div className="hero-right">
             <div className="hero-image-wrap">
-              <img 
-                src={`${process.env.PUBLIC_URL || ''}/hero-image.png`} 
-                alt="Raahi — friendly service, one platform" 
-                className="hero-image-only"
-              />
+              <picture>
+                <source
+                  srcSet={`${process.env.PUBLIC_URL || ''}/hero-image.webp`}
+                  type="image/webp"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL || ''}/hero-image.jpg`}
+                  alt="Raahi — friendly service, one platform"
+                  className="hero-image-only"
+                  width={960}
+                  height={639}
+                  fetchPriority="high"
+                  decoding="async"
+                />
+              </picture>
             </div>
           </div>
         </div>
       </div>
       
       <div className="hero-background-pattern"></div>
-      <div 
-        className="hero-map-bg" 
-        aria-hidden="true" 
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL || ''}/map.svg)` }}
-      />
     </section>
   );
 };

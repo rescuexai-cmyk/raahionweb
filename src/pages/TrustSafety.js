@@ -14,7 +14,14 @@ const TrustSafety = () => {
           <p className="page-subtitle">{ts.pageSubtitle}</p>
         </div>
         <div className="page-hero-split-image">
-          <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80" alt="Safe travel with Raahi" />
+          <img
+            src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=70&fm=webp"
+            alt="Safe travel with Raahi"
+            width={800}
+            height={533}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </section>
 

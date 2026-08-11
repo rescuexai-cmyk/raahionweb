@@ -11,7 +11,14 @@ const Contact = () => {
           <p className="page-subtitle">Get in touch — we're here to help. Email us.</p>
         </div>
         <div className="page-hero-split-image">
-          <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80" alt="Raahi support" />
+          <img
+            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=70&fm=webp"
+            alt="Raahi support"
+            width={800}
+            height={533}
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </section>
 
